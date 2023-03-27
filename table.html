@@ -1,0 +1,35 @@
+<html>
+  <body>
+    <!-- 예전에는 table로 페이지의 레이아웃을 잡았었다. 현재는 CSS로 한다. -->
+    <!-- thead와 tfoot은 코드 상의 위치와 무관하게 각각 표의 맨 위/아래에 위치하게 된다. -->
+    <table border="2">
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>성별</th>
+          <th>거주지</th>
+          <th>회비</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>한정섭</td>
+          <td>남</td>
+          <td rowspan="2">서울</td>
+          <td>1000</td>
+        </tr>
+        <tr>
+          <td>박수민</td>
+          <td>여</td>
+          <td>500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3">합계</td>
+          <td>1500</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="login.php" autocomplete="on">
+      <input
+        type="text"
+        name="inputId"
+        id="userId"
+        placeholder="id를 입력해주세요"
+        autofocus
+      />
+      <input
+        type="password"
+        name="inputPassword"
+        id="passwordId"
+        autocomplete="off"
+        placeholder="비밀번호를 입력해주세요"
+      />
+      <!-- autofocus는 여러 필드에 선언하더라도 처음 선언한 필드에만 적용된다. -->
+      <input type="submit" value="로그인" />
+      <input type="reset" value="초기화" />
+    </form>
+  </body>
+</html>
